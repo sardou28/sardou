@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <fieldset>
+        <h1>Formulário Freelance:</h1>
+
+        <p>Nome:
+            <input type="text" required name="name" size="20" maxlength="40" id="fname" placeholder="Insira Seu Nome"><br>
+        </p>
+        <p>Sobrenome:
+            <input type="text" required name="name" size="20" maxlength="40" id="fname" placeholder="Insira Seu Sobrenome"><br>
+        </p>
+        <p>Telefone:
+            <input type="text" required name="mae" size="20" maxlength="40" id="telefone" placeholder="(99)99999-9999"><br>
+        </p>
+        <p>E-mail:
+            <input type="text" required name="e-mail" size="20" maxlength="40" id="e-mail" placeholder="Insira seu E-mail"><br>
+        </p>
+        <p>Mensagem:
+
+            <textarea rows="5" cols="40" maxlength="400"></textarea>
+        </p>
+
+
+        <div class="principal">
+            <div class="Lingua">
+                <p> Lingua: <br />
+                    <select name="Lingua">
+                          <option value="valor1">Português (Pt-Br)</option>
+                          <option value="valor2">Espanhol (es)</option>
+                          <option value="valor3">Ingles (en)</option> 
+                    </select>
+                </p>
+
+
+            </div>
+            <div class="Linguagem Que Você Prefere">
+                <p> Linguagem Que Você Prefere:<br />
+                    <select name="Linguam">
+                    <option value="valor1">Java</option>
+                    <option value="valor2">C++</option>
+                    <option value="valor3">C</option> 
+                    
+                </select> Para fazer várias escolhas, basta manter a tecla CTRL pressionada.
+                </p>
+
+
+
+
+
+            </div>
+            <div class="atividade">
+                <p>Turno Para Reuniões:<br />
+                    <input type="checkbox" name="inf">Manhã<br>
+                    <input type="checkbox" name="mus">Tarde<br>
+                    <input type="checkbox" name="bal">Noite<br>
+                </p>
+            </div>
+            <p>Data Prevista Para Entrega (dd/mm/aaaa):
+                <input type="data" required name="dia" size="1" maxlength="2" id="dia" placeholder="dia">/
+                <input type="data" required name="mes" size="1" maxlength="2" id="mes" placeholder="mês">/
+                <input type="data" required name="ano" size="1" maxlength="4" id="ano" placeholder="ano">
+            </p>
+        </div>
+        <button class="botao" type="submit">Enviar</button>
+        <button class="botao" type="submit">Limpar</button>
+        </form>
+        </div>
+
+    </fieldset>
+</body>
+
+</html>
